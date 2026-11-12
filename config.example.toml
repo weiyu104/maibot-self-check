@@ -1,4 +1,4 @@
-# 自像比对 (lanyan.self-check) · 配置示例
+# 自像比对 (maibot.self-check) · 配置示例
 #
 # 用法：把本文件复制成 config.toml 后按需修改。config.toml 已被 .gitignore 排除，
 #       不会进仓库（插件中心明确禁止仓库根目录出现 config.toml）。
@@ -6,7 +6,7 @@
 # 改配置热重载即生效；改 .py 需要重载插件。
 
 [plugin]
-name = "lanyan_self_check"
+name = "maibot_self_check"
 version = "0.2.4"
 config_version = "1.0.0"
 enabled = true
