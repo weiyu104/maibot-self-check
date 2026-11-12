@@ -1,0 +1,14 @@
+config.toml
+config.local.toml
+__pycache__/
+*.py[cod]
+.venv/
+data/
+*.jsonl
+*_quota.json
+refs/*.jpg
+refs/*.jpeg
+refs/*.png
+refs/*.webp
+.DS_Store
+Thumbs.db
