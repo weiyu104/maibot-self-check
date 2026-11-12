@@ -1,4 +1,4 @@
-"""自像比对 (lanyan.self-check) · 主入口
+"""自像比对 (maibot.self-check) · 主入口
 
 ## 它解决什么
 
