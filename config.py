@@ -1,4 +1,4 @@
-"""自像比对 (lanyan.self-check) · 配置模型
+"""自像比对 (maibot.self-check) · 配置模型
 
 只做一件事：图 + 自我指向文本时，把「待判图」和「她的标准三视图」一起喂给视觉模型，
 把比对结论作为一条材料注入 planner 的请求尾部。
@@ -17,7 +17,7 @@ class PluginSection(PluginConfigBase):
     __ui_label__ = "插件"
     __ui_order__ = 0
 
-    name: str = Field(default="lanyan_self_check", description="插件名称", json_schema_extra={"label": "插件标识", "order": 0, "hint": "内部 ID，请勿修改", "hidden": True, "disabled": True})
+    name: str = Field(default="maibot_self_check", description="插件名称", json_schema_extra={"label": "插件标识", "order": 0, "hint": "内部 ID，请勿修改", "hidden": True, "disabled": True})
     version: str = Field(default="0.2.4", description="插件版本", json_schema_extra={"label": "插件版本", "order": 1, "hint": "由插件维护，请勿修改", "hidden": True, "disabled": True})
     config_version: str = Field(default="1.0.0", description="配置版本", json_schema_extra={"label": "配置版本", "order": 2, "hint": "由插件维护，请勿修改", "hidden": True, "disabled": True})
     enabled: bool = Field(default=True, description="是否启用", json_schema_extra={"label": "启用自像比对", "order": 3, "hint": "总开关", "description": "关闭后不再发起比对，不影响其它插件与聊天功能"})
