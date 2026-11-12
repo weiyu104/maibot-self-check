@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "id": "lanyan.self-check",
+  "id": "maibot.self-check",
   "version": "0.2.4",
   "name": "自像比对 (Self Check)",
   "description": "收到「像不像你」这类带图消息时，把图片与自备的角色基准图交给视觉模型比对，把结论作为一条客观材料注入 planner 请求尾部。只改本轮请求，不写数据库、不改图片描述、不发消息；无基准图或调用失败时静默跳过。",
